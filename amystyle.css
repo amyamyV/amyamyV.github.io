@@ -1,0 +1,36 @@
+/*use box model for html layout ie. content, padding, border, margin*/
+/*width and height set only the content size*/
+
+
+
+body {
+    background-color: rgb(67, 95, 119);
+    font-family: fantasy;
+    line-height: 1.8;
+    font-weight: bolder;
+    font-stretch: semi-expanded;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+
+/*all redefined font features are NOT inherited if redefined a single for a section*/
+
+h1 {
+    color: rgb(220, 226, 204) ;
+    text-align: center;
+    padding: 20px;
+}
+
+div.polaroid {
+  width: 35%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  font-size: 20px;
+  color: grey;
+  padding: 10px 20px;
+}
