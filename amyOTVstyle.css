@@ -5,9 +5,8 @@
 
 body {
     background-color: rgb(67, 95, 119);
-    font-family: fantasy, courier new, sans-serif;
+    font-family: fantasy, courier new, Georgia;
     line-height: 1.8;
-    /*font-weight: bolder;*/
     font-stretch: semi-expanded;
     font-size: 8vw;
     margin: 0; /*automatically puts border/space if not set to 0 */
@@ -23,10 +22,13 @@ h1 {
     font-variant: small-caps;
     background-color: rgb(63, 87, 99);
     color: rgb(220, 226, 204);
-    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     font-size: 3.5vw;
     margin-bottom: 30px !important;
+    width: 100%;
+    display: block;
 
 }
 
@@ -50,7 +52,7 @@ div.polaroid {
 
 div.container {
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-family: Chalkduster, cursive;
     color: black;
     padding: 30px;
@@ -86,11 +88,18 @@ h2 {
 
 }
 
-#AquariumContainer{
+.wideImgContainers { /*#AquariumContainer, StreetAmyContainer, DeerContainer, #BaltimoreContainer*/
     float: left;
     position: relative;
 
 }
+
+/*AquariumContainer {
+    float: left;
+    position: relative;
+}
+*/
+
 
 #dwayneQuote {
     text-align: center;
@@ -102,11 +111,13 @@ h2 {
 
 }
 
-#StreetAmyContainer {
+/*#StreetAmyContainer {
     position: relative;
     float: left;
 
 }
+*/
+
 #StreetAmyImg {
     /*display: block;   Gets rid of extra space of continer*/
 }
@@ -149,13 +160,14 @@ h2 {
 
 }
 
-#DeerContainer {
+/*#DeerContainer {
     float: left;
     position: relative;
 }
 #DeerImg {
 
 }
+*/
 #DeerText {
     position: absolute;
     color: brown;
@@ -164,10 +176,11 @@ h2 {
     top: 50vw;
 }
 
-#BaltimoreContainer {
+/*#BaltimoreContainer {
     float: left;
     position: relative;
 }
+*/
 #BaltimoreImg {
     width: 100%;
 }
@@ -179,12 +192,36 @@ h2 {
     top: 35vw;
 }
 
+h3 {
+    color: rgb(23, 10, 81);
+    font-size: 4vw;
+    text-align: center;
+    background-color: rgb(91, 123, 150);
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: block;
+    float: left; /* float:left: place element far left as possible*/
+    width: 100%;
+}
+
+#chuckleLink:link {
+    color: rgb(133, 168, 196);
+}
+#chuckleLink:hover {
+    color: rgb(201, 217, 229);
+}
+#chuckleLink:visited {
+    color: black;
+}
+
+
 #myFooter {
     float: left;
     font-size: 2vw;
     font-stretch: semi-expanded;
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%; /*need these two lines to keep at bottom*/
     float: left;
 
