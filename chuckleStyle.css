@@ -4,39 +4,46 @@ body {
     background-color: rgb(237, 202, 156);
     font-family: fantasy, courier new, Georgia;
     line-height: 1.2;
-    text-shadow: 3px 2px black;
-    font-stretch: semi-condensed;
-    font-size: 5vw;
+    /*text-shadow: 3px 2px black;*/
+    font-size: 2vw;
     margin: 0; /*automatically puts border/space if not set to 0 */
-    padding: 0;
+    padding: 0 15vw 0 15vw;
 
 }
 
 h1 {
     padding: 3vh;
-    font-size: 5vw;
+    font-size: 2vw;
     text-align: center;
     display: block;
-    float: left;
-    top: 25%;
-    right: 20%; /*why not in middle at 25%? */
-    position: absolute;
+
+    top: 50%;
+    right: 50%; /*why not in middle at 25%? */
     background-color: white;
+
 
 }
 
 
 /* temporarily enlarges images when hover over them*/
 .zoom {
-    padding: 50px;
+    padding: .5vw;
     transition: transform .2s; /* Animation */
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
     margin: 0 auto;
+    border: 1vw solid #ddd;
+    width: 20vw;
+
 }
 
 .zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(2.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 /*end css for enlarges images*/
+
+.pics {
+    width: 100%;
+    text-align: center;
+}
